@@ -20,7 +20,7 @@ import kotlinx.coroutines.runBlocking
 // Création du "Data Store"
 val Context.dataStore : DataStore<Preferences> by preferencesDataStore("demo-datastore")
 
-class PersistanceDataStoreActivity : AppCompatActivity() {
+class PersistenceDataStoreActivity : AppCompatActivity() {
 
     val KEY_COUNTER = intPreferencesKey("COUNTER")
 

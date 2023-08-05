@@ -6,7 +6,7 @@ import android.util.Log
 import java.io.File
 import java.io.FileWriter
 
-class PersistanceFileActivity : AppCompatActivity() {
+class PersistenceFileActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -8,7 +8,7 @@ import android.preference.PreferenceFragment
 import android.preference.PreferenceManager
 import java.util.prefs.Preferences
 
-class PersistancePrefActivity : AppCompatActivity() {
+class PersistencePrefActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
